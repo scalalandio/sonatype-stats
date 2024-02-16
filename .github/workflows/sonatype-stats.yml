@@ -1,6 +1,9 @@
 name: Publish Sonatype Stats to GitHub Pages
 
 on:
+  push:
+    branches:
+      - master
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron:  '0 0 7,15 * *'
