@@ -19,7 +19,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: data
-          key: setup-1
+          key: setup-2
 
       - name: Fetch and render Sonatype Stats
         uses: MateuszKubuszok/sonatype-stats@v1.0.0
